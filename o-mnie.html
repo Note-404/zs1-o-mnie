@@ -3,27 +3,91 @@
 <head>
 <meta charset="utf-8">
 <title>strona</title>
+<style>
+    body{
+        background-color: royalblue;
+    }
+    header.imie{
+        display: flex;
+        justify-content: center;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        height: 50px;
+        align-items: center;
+        border-top-right-radius: 7px;
+    } .kto{
+        border: .5px solid blue;
+        height: 35px;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        margin-top: -10px;
+        padding-top: 10px;
+        border-bottom-left-radius: 7px;
+    } summary{
+        font-size: larger;
+        font-weight: bolder;
+        border: 1px solid black;
+        background-color: black;
+        color: white;
+        
+    } .opis{
+        font-size: large;
+        font-weight: 200;
+        
+        color: white;
+       
+       
+    } summary:hover{
+        background-color: violet;
+        color: red;
+    } li{
+        font-size: larger;
+        font-weight: 300;
+        color: rgb(180, 2, 2);
+    } .idk{
+        font-size: large;
+        font-weight: 400;
+        color:mediumspringgreen;
+    } .Cyt{
+        margin-top: -5px ;
+    } a{
+        text-decoration: none;
+        color: aqua;
+    } .Kon{
+        margin-bottom: -20px;
+        
+    } hr{
+    
+    }
+</style>
 </head>
 <body>
-Marek Wilczyński
-uczeń drugiej klasy technikum, technik programista
-O mnie
-Programować zacząłem dwa lata temu od modów do Minecrafta i do dziś najbardziej lubię ten moment, w którym coś zaczyna działać po godzinie szukania literówki. Poza tym gram w kosza i naprawiam stare laptopy.
-Czego się uczę
-PHP
-CSS
-git
-Linux
-Sprzęt
-laptop: Lenovo ThinkPad T480
-system: Fedora
-edytor: VS Code
-Cytat, który mi się podoba
-Program to opis, tylko napisany w sztucznym języku.
-Kontakt
-marek.wilczynski@example.com
-https://github.com/example
-zdjecie.jpg
+<header class="imie"><strong>Marek Wilczyński</strong></header>
+<p class="kto">uczeń drugiej klasy technikum, technik programista</p>
+<details>
+<summary>O mnie</summary>
+<p class="opis">Programować zacząłem dwa lata temu od modów do Minecrafta i do dziś najbardziej lubię ten moment, w którym coś zaczyna działać po godzinie szukania literówki. Poza tym gram w kosza i naprawiam stare laptopy.</p>
+</details><hr>
+<h1>Czego się uczę</h1>
+<ul>
+<li>PHP</li>
+  <li>CSS</li>
+    <li>git</li>
+    <li>Linux</li>
+</ul><hr>
+<p class="idk">Sprzęt
+laptop: Lenovo ThinkPad T480<br>
+system: Fedora<br>
+edytor: VS Code</p><hr>
+<h2 class="Cyt">Cytat, który mi się podoba</h2>
+<h4><em>Program to opis, tylko napisany w sztucznym języku.</em></h4><hr>
+<h2 class="Kon">Kontakt</h2><br>
+<a href="marek.wilczynski@example.com" target="_blank">marek.wilczynski@example.com</a><br>
+<a href="https://github.com/example" target="_blank">https://github.com/example</a><hr>
+<img src="zdjecie.jpg" alt="zdjecie.jpg">
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495" integrity="sha512-iIg7k2xntmwu6/uSb5tpc/hySgZc4eoL31yB29W6tJFo2akwjPWcEqnCEdJvGexCL0KEQwVYv5BlowfhVz26hg==" data-cf-beacon='{"version":"2024.11.0","token":"7046a76ee76e43118af5b91ed04c1909","r":1,"spa":2}' crossorigin="anonymous"></script>
 </body>
 </html>
-
